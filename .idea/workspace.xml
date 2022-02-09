@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="508f247f-6b26-4030-af09-ffda82e7a346" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/SolutionTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24ssfxMpgtA27J5tTK0OQlrqZvm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="16.0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SolutionTest.findKthLargest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SolutionTest" />
+      <option name="METHOD_NAME" value="findKthLargest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SolutionTest.findKthLargest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="508f247f-6b26-4030-af09-ffda82e7a346" name="Default Changelist" comment="" />
+      <created>1644430735586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644430735586</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1362" height="199" key="GridCell.Tab.0.bottom" timestamp="1644432716280">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1362" height="199" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1644432716280" />
+    <state width="1362" height="199" key="GridCell.Tab.0.center" timestamp="1644432716279">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1362" height="199" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1644432716279" />
+    <state width="1362" height="199" key="GridCell.Tab.0.left" timestamp="1644432716279">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1362" height="199" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1644432716279" />
+    <state width="1362" height="199" key="GridCell.Tab.0.right" timestamp="1644432716279">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1362" height="199" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1644432716279" />
+    <state width="1362" height="248" key="GridCell.Tab.1.bottom" timestamp="1644432544800">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1362" height="248" key="GridCell.Tab.1.bottom/0.25.1440.790@0.25.1440.790" timestamp="1644432544800" />
+    <state width="1362" height="248" key="GridCell.Tab.1.center" timestamp="1644432544799">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1362" height="248" key="GridCell.Tab.1.center/0.25.1440.790@0.25.1440.790" timestamp="1644432544799" />
+    <state width="1362" height="248" key="GridCell.Tab.1.left" timestamp="1644432544799">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1362" height="248" key="GridCell.Tab.1.left/0.25.1440.790@0.25.1440.790" timestamp="1644432544799" />
+    <state width="1362" height="248" key="GridCell.Tab.1.right" timestamp="1644432544800">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1362" height="248" key="GridCell.Tab.1.right/0.25.1440.790@0.25.1440.790" timestamp="1644432544800" />
+    <state x="358" y="134" key="RollbackChangesDialog" timestamp="1644430922688">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="358" y="134" key="RollbackChangesDialog/0.25.1440.790@0.25.1440.790" timestamp="1644430922688" />
+    <state x="393" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1644430739857">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="393" y="250" key="com.intellij.ide.util.TipDialog/0.25.1440.790@0.25.1440.790" timestamp="1644430739857" />
+    <state x="452" y="320" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1644431024221">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="452" y="320" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.25.1440.790@0.25.1440.790" timestamp="1644431024221" />
+    <state x="517" y="153" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1644431009161">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="517" y="153" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.790@0.25.1440.790" timestamp="1644431009161" />
+    <state x="141" y="25" width="1193" height="790" key="new project wizard" timestamp="1644430800182">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="141" y="25" width="1193" height="790" key="new project wizard/0.25.1440.790@0.25.1440.790" timestamp="1644430800182" />
+  </component>
+</project>

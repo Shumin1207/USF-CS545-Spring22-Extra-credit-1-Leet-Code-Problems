@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Test;
-
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,10 +21,20 @@ class SolutionTest {
     }
 
     @Test
-    void sortAB() {
-        String[] arr = new String[] {"A", "B", "A", "B"};
+    void sortList() {
+        ListNode head = new ListNode(4);
+        ListNode node1 = new ListNode(2);
+        ListNode node2 = new ListNode(1);
+        ListNode node3 = new ListNode(3);
+        head.next = node1;
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = null;
         Solution solution = new Solution();
-        solution.sortAB(arr);
-        System.out.println(Arrays.toString(arr));
+        ListNode result = solution.sortList(head);
+        while (result!=null){
+            System.out.println(result.val);
+            result = result.next;
+        }
     }
 }

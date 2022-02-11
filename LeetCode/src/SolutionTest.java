@@ -1,3 +1,7 @@
+import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class SolutionTest {
@@ -15,5 +19,13 @@ class SolutionTest {
         int[] nums2 = new int[]{3,2,1,5,6,4};
         int result2 = solution.findKthLargest(nums2, 2);
         System.out.println(result2); //5
+    }
+
+    @Test
+    void sortAB() {
+        String[] arr = new String[] {"A", "B", "A", "B"};
+        Solution solution = new Solution();
+        solution.sortAB(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }

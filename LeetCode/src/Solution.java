@@ -1,8 +1,117 @@
 //Github link: git@github.com:Shumin1207/USF-CS545-Spring22-Extra-credit-1-Leet-Code-Problems.git
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Solution {
+
+    public List<List<Integer>> fourSum(int[] nums, int target) {
+        if (nums == null || nums.length < 4) {
+            return null;
+        }
+        int[] sorted = sortNums(nums, 0, nums.length - 1);
+        List<List<Integer>> result = new ArrayList<>();
+        for (int a = 0; a < sorted.length - 3; a++) {
+            for (int b = a + 1; b < sorted.length - 2; b++) {
+                int d = sorted.length - 1;
+                int c = b + 1;
+                while (c < d) {
+                    int sum = sorted[a] + sorted[b] + sorted[c] + sorted[d];
+                    if (sum == target) {
+                        List<Integer> tempList = new ArrayList<>();
+                        tempList.add(sorted[a]);
+                        tempList.add(sorted[b]);
+                        tempList.add(sorted[c]);
+                        tempList.add(sorted[d]);
+                        if (!result.contains(tempList)) {
+                            result.add(tempList);
+                        }
+                    }
+                    if (sum > target) {
+                        d--;
+                    } else {
+                        c++;
+                    }
+                }
+            }
+        }
+        return result;
+    }
+
+    public int threeSumClosest(int[] nums, int target) {
+        if (nums == null || nums.length < 3) {
+            return 0;
+        }
+        int[] sorted = sortNums(nums, 0, nums.length - 1);
+        return findSum(sorted, target);
+    }
+
+    private int[] sortNums(int[] nums, int start, int end) {
+        if (start >= end) {
+            return new int[]{nums[start]};
+        }
+        int mid = (end + start) / 2;
+        int[] left = sortNums(nums, start, mid);
+        int[] right = sortNums(nums, mid + 1, end);
+        int[] merged = merge(left, right);
+        return merged;
+    }
+
+    private int[] merge(int[] left, int[] right) {
+        int l = 0;
+        int r = 0;
+        int q = 0;
+        int[] result = new int[left.length + right.length];
+        while ((q < result.length) && (l < left.length) && (r < right.length)) {
+            if (left[l] < right[r]) {
+                result[q] = left[l];
+                q++;
+                l++;
+            } else {
+                result[q] = right[r];
+                q++;
+                r++;
+            }
+        }
+        while (l < left.length) {
+            result[q] = left[l];
+            q++;
+            l++;
+        }
+        while (r < right.length) {
+            result[q] = right[r];
+            q++;
+            r++;
+        }
+
+        return result;
+    }
+
+    private int findSum(int[] nums, int target) {
+
+        if (nums == null) {
+            return 0;
+        }
+        int result = Integer.MAX_VALUE - target;
+        for (int i = 0; i < nums.length; i++) {
+            int low = i + 1;
+            int high = nums.length - 1;
+            while (low < high) {
+                int temp = nums[i] + nums[low] + nums[high];
+                if (Math.abs(temp - target) < Math.abs(result - target)) {
+                    result = temp;
+                }
+                if (temp > target) {
+                    high--;
+                } else {
+                    low++;
+                }
+            }
+        }
+        return result;
+    }
+
 
     // I choose two merge sort problems under the tags of "facebook" and "merge sort"：
     //      215. Kth Largest Element in an Array (Medium)  https://leetcode.com/problems/kth-largest-element-in-an-array/

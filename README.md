@@ -4,8 +4,10 @@ Update every week to record my LeetCode solutions.
 
 ## Feb 18
 I choose two merge sort problems under the tags of "facebook" and "sort"：
+
 18. 4Sum (Medium)
 https://leetcode.com/problems/4sum/
+
 16. 3Sum (Medium)
 https://leetcode.com/problems/3sum-closest/
 

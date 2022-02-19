@@ -1,11 +1,18 @@
 //Github link: git@github.com:Shumin1207/USF-CS545-Spring22-Extra-credit-1-Leet-Code-Problems.git
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+// I choose two merge sort problems under the tags of "facebook" and "merge sort"：
+//      18. 4Sum  https://leetcode.com/problems/4sum/
+//      16. 3Sum  https://leetcode.com/problems/3sum-closest/
 
 public class Solution {
 
+    /**
+     * 18. 4Sum https://leetcode.com/problems/4sum/ Solution:
+     * uses merge sort to sort the list;
+     * uses 2 for loops and 2 pointers to find the 4 numbers.
+     **/
     public List<List<Integer>> fourSum(int[] nums, int target) {
         if (nums == null || nums.length < 4) {
             return null;
@@ -39,6 +46,12 @@ public class Solution {
         return result;
     }
 
+
+    /**
+     * 16. 3Sum Closest https://leetcode.com/problems/3sum-closest/ Solution:
+     * uses merge sort to sort the list;
+     * uses a for loop and 2 pointers to find the 3 numbers such that the sum is closest to target.
+     **/
     public int threeSumClosest(int[] nums, int target) {
         if (nums == null || nums.length < 3) {
             return 0;

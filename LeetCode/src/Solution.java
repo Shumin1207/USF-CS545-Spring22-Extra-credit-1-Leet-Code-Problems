@@ -1,12 +1,90 @@
 //Github link: git@github.com:Shumin1207/USF-CS545-Spring22-Extra-credit-1-Leet-Code-Problems.git
+// 18、16、215、248
 
-import java.util.ArrayList;
-import java.util.List;
-// I choose two merge sort problems under the tags of "facebook" and "merge sort"：
-//      18. 4Sum  https://leetcode.com/problems/4sum/
-//      16. 3Sum  https://leetcode.com/problems/3sum-closest/
+import java.util.*;
+
 
 public class Solution {
+
+    // Mar.11 I choose two Linked List problems under the tags of "facebook" and "merge sort"：
+//      92. Reverse Linked List II  https://leetcode.com/problems/reverse-linked-list-ii/
+//      24. Swap Nodes in Pairs https://leetcode.com/problems/swap-nodes-in-pairs/
+
+    /**
+     * 24. Swap Nodes in Pairs https://leetcode.com/problems/swap-nodes-in-pairs/
+     * base cases: head == null, head.next == null;
+     * use recursion:
+     * we get a newHead from the subproblem which is already swapped in pairs;
+     * then we swap the head and head.next in the current level and attach the newHead from the subproblem at the end;
+     * return the head of the current level;
+     **/
+    public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode newNode = head.next;
+        head.next = swapPairs(newNode.next);
+        newNode.next = head;
+        return newNode;
+    }
+
+    /**
+     * 92. Reverse Linked List II  https://leetcode.com/problems/reverse-linked-list-ii/
+     * edge cases: head == null, head.next == null, left == right;
+     * diferent cases:
+     * 1. left == 1 or left > 1;
+     * 2. right == length or right < length;
+     * use iterative method;
+     **/
+
+    public ListNode reverseBetween(ListNode head, int left, int right) {
+        if (head == null || head.next == null || left == right) {
+            return head;
+        }
+
+        ListNode dummy = new ListNode(-1);
+        ListNode cur = head;
+        ListNode reverseStart = null;
+        ListNode reverseEnd = null;
+        ListNode prev = null;
+        ListNode next = null;
+
+        while (left > 1 && cur.next != null) {
+            dummy.next = head;
+            reverseStart = cur;
+            cur = cur.next;
+            left--;
+            right--;
+        }
+
+        reverseEnd = cur;
+        prev = cur;
+        cur = cur.next;
+        prev.next = null;
+
+        while (right > 1 && cur != null) {
+            next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
+            right--;
+        }
+
+        if (reverseStart == null) {
+            dummy.next = prev;
+        } else {
+            reverseStart.next = prev;
+        }
+
+        reverseEnd.next = cur;
+
+        return dummy.next;
+    }
+
+
+// Feb.18 I choose two merge sort problems under the tags of "facebook" and "merge sort"：
+//      18. 4Sum  https://leetcode.com/problems/4sum/
+//      16. 3Sum  https://leetcode.com/problems/3sum-closest/
 
     /**
      * 18. 4Sum https://leetcode.com/problems/4sum/ Solution:
@@ -60,14 +138,26 @@ public class Solution {
         return findSum(sorted, target);
     }
 
-    private int[] sortNums(int[] nums, int start, int end) {
+    public static int counter = 0;
+    public static int merge = 0;
+
+    public int[] sortNums(int[] nums, int start, int end) {
         if (start >= end) {
-            return new int[]{nums[start]};
+            counter++;
+            int[] result = new int[]{nums[start]};
+//            System.out.println("After the " +counter + " recursive call: " + Arrays.toString(result));
+            return result;
         }
         int mid = (end + start) / 2;
         int[] left = sortNums(nums, start, mid);
+        System.out.println("Left: " + Arrays.toString(left));
         int[] right = sortNums(nums, mid + 1, end);
+        System.out.println("Right: " + Arrays.toString(right));
         int[] merged = merge(left, right);
+        counter++;
+        merge++;
+        System.out.println("After the " + counter + " recursive call: " + Arrays.toString(merged));
+        System.out.println("Merge: " + merge);
         return merged;
     }
 
@@ -97,7 +187,6 @@ public class Solution {
             q++;
             r++;
         }
-
         return result;
     }
 

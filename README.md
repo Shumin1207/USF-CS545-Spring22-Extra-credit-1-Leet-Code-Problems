@@ -8,7 +8,7 @@ I choose two linked list problems under the tags of "facebook" and "sort"：
 24. Swap Nodes in Pairs 
 https://leetcode.com/problems/swap-nodes-in-pairs/
 
-92. Reverse Linked List II  
+92. Reverse Linked List II
 https://leetcode.com/problems/reverse-linked-list-ii/
 
 

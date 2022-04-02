@@ -6,6 +6,51 @@ import java.util.*;
 
 public class Solution {
 
+    // April.01
+//      114. Flatten Binary Tree to Linked List https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+//      669. Trim a Binary Search Tree https://leetcode.com/problems/trim-a-binary-search-tree/
+
+    public TreeNode trimBST(TreeNode root, int low, int high) {
+        if (root == null) {
+            return null;
+        }
+        if (root.val >= low && root.val <= high) {
+            root.right = trimBST(root.right, low, high);
+            root.left = trimBST(root.left, low, high);
+        } else if (root.val < low) {
+            root = trimBST(root.right, low, high);
+        } else {
+            root = trimBST(root.left, low, high);
+        }
+        return root;
+    }
+
+    public TreeNode flatten(TreeNode root) {
+        if (root == null) {
+            return null;
+        }
+
+        if (root.left == null && root.right == null) {
+            return root;
+        }
+
+        TreeNode left = flatten(root.left);
+        TreeNode tail = left;
+        TreeNode right = flatten(root.right);
+
+        while (tail != null && tail.right != null) {
+            tail = tail.right;
+        }
+
+        if (tail != null) {
+            tail.right = right;
+            root.right = left;
+            root.left = null;
+        }
+        return root;
+    }
+
+
     // Mar.11 I choose two Linked List problems under the tags of "facebook" and "merge sort"：
 //      92. Reverse Linked List II  https://leetcode.com/problems/reverse-linked-list-ii/
 //      24. Swap Nodes in Pairs https://leetcode.com/problems/swap-nodes-in-pairs/

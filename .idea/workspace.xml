@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="508f247f-6b26-4030-af09-ffda82e7a346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/SolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/SolutionTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="508f247f-6b26-4030-af09-ffda82e7a346" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,14 +177,22 @@
       <option name="project" value="LOCAL" />
       <updated>1645232319540</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="24. Swap Nodes in Pairs &#10;92. Reverse Linked List II&#10;16. 3Sum Closest&#10;18. 4Sum&#10;215. Kth Largest Element in an Array&#10;148. Sort List">
+      <created>1647058353220</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647058353220</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="215. Kth Largest Element in an Array" />
     <MESSAGE value="215. Kth Largest Element in an Array&#10;148. Sort List" />
     <MESSAGE value="16. 3Sum Closest&#10;18. 4Sum&#10;215. Kth Largest Element in an Array&#10;148. Sort List" />
-    <option name="LAST_COMMIT_MESSAGE" value="16. 3Sum Closest&#10;18. 4Sum&#10;215. Kth Largest Element in an Array&#10;148. Sort List" />
+    <MESSAGE value="24. Swap Nodes in Pairs &#10;92. Reverse Linked List II&#10;16. 3Sum Closest&#10;18. 4Sum&#10;215. Kth Largest Element in an Array&#10;148. Sort List" />
+    <option name="LAST_COMMIT_MESSAGE" value="24. Swap Nodes in Pairs &#10;92. Reverse Linked List II&#10;16. 3Sum Closest&#10;18. 4Sum&#10;215. Kth Largest Element in an Array&#10;148. Sort List" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -199,10 +200,10 @@
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="1064" y="279" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.25.1440.790@0.25.1440.790" timestamp="1647050914047" />
-    <state x="362" y="25" width="1017" height="790" key="CommitChangelistDialog2" timestamp="1645232319167">
-      <screen x="0" y="25" width="1440" height="794" />
+    <state x="-34" y="25" width="1017" height="790" key="CommitChangelistDialog2" timestamp="1648881142817">
+      <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="133" y="25" width="1017" height="790" key="CommitChangelistDialog2/0.25.1440.790@0.25.1440.790" timestamp="1644620204260" />
+    <state x="-34" y="25" width="1017" height="790" key="CommitChangelistDialog2/0.25.1440.790@0.25.1440.790" timestamp="1648881142817" />
     <state x="362" y="25" key="CommitChangelistDialog2/0.25.1440.791@0.25.1440.791" timestamp="1645229575148" />
     <state x="362" y="25" key="CommitChangelistDialog2/0.25.1440.794@0.25.1440.794" timestamp="1645232319167" />
     <state width="725" height="199" key="GridCell.Tab.0.bottom" timestamp="1646278458467">
@@ -261,16 +262,16 @@
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="358" y="134" key="RollbackChangesDialog/0.25.1440.790@0.25.1440.790" timestamp="1644430922688" />
-    <state x="242" y="165" key="Vcs.Push.Dialog.v2" timestamp="1645232326465">
-      <screen x="0" y="25" width="1440" height="794" />
-    </state>
-    <state x="242" y="164" key="Vcs.Push.Dialog.v2/0.25.1440.790@0.25.1440.790" timestamp="1644620210518" />
-    <state x="242" y="164" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1645229582674" />
-    <state x="242" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.794@0.25.1440.794" timestamp="1645232326465" />
-    <state x="246" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1647021632955">
+    <state x="242" y="164" key="Vcs.Push.Dialog.v2" timestamp="1647058363185">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="246" y="250" key="com.intellij.ide.util.TipDialog/0.25.1440.790@0.25.1440.790" timestamp="1647021632955" />
+    <state x="242" y="164" key="Vcs.Push.Dialog.v2/0.25.1440.790@0.25.1440.790" timestamp="1647058363185" />
+    <state x="242" y="164" key="Vcs.Push.Dialog.v2/0.25.1440.791@0.25.1440.791" timestamp="1645229582674" />
+    <state x="242" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.794@0.25.1440.794" timestamp="1645232326465" />
+    <state x="246" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1648880969810">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="246" y="250" key="com.intellij.ide.util.TipDialog/0.25.1440.790@0.25.1440.790" timestamp="1648880969810" />
     <state x="452" y="320" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1644431024221">
       <screen x="0" y="25" width="1440" height="790" />
     </state>

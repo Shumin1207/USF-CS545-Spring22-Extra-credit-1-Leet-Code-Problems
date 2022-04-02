@@ -2,6 +2,15 @@
 
 Update every week to record my LeetCode solutions.
 
+## Apr 01
+I choose two linked list problems under the tags of "facebook" and "binary tree"：
+
+114. Flatten Binary Tree to Linked List 
+https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+
+669. Trim a Binary Search Tree 
+https://leetcode.com/problems/trim-a-binary-search-tree/
+
 ## Mar 11
 I choose two linked list problems under the tags of "facebook" and "sort"：
 

@@ -2,6 +2,15 @@
 
 Update every week to record my LeetCode solutions.
 
+## Apr 15
+I choose two medium problems under the tag "hash table"：
+
+3. Longest Substring Without Repeating Characters 
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+17. Letter Combinations of a Phone Number 
+https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
 ## Apr 01
 I choose two linked list problems under the tags of "facebook" and "binary tree"：
 

@@ -1,4 +1,4 @@
-# USF-CS545-Spring22-Extra-credit-1-Leet-Code-Problems
+# LeetCode-Problems
 
 Update every week to record my LeetCode solutions.
 
